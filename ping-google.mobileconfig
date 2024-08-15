@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>URLs</key>
+            <array>
+                <string>https://www.google.com</string>
+            </array>
+            <key>Frequency</key>
+            <integer>60</integer>
+            <key>Payload Type</key>
+            <string>com.apple.remoteaccess.pingprofile</string>
+            <key>PayloadIdentifier</key>
+            <string>com.example.pingprofile</string>
+            <key>PayloadUUID</key>
+            <string>A1B2C3D4-E5F6-G7H8-I9J0-K1L2M3N4O5P</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Ping Google Profile</string>
+    <key>PayloadDescription</key>
+    <string>This profile will ping Google.com every 60 seconds to keep your internet connection alive.</string>
+    <key>PayloadOrganization</key>
+    <string>Example Company</string>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>A1B2C3D4-E5F6-G7H8-I9J0-K1L2M3N4O5P</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
